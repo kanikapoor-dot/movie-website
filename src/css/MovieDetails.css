@@ -1,0 +1,74 @@
+.grid-container{
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(20,20,26);
+    display: grid;
+    grid-template-columns: 30% auto;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+.grid-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-right {
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.grid-left > img {
+    width: calc(80% - 10px);
+    height: auto;
+    margin: 0px auto 10px;
+    border: 5px solid whitesmoke;
+}
+
+.grid-left > button {
+    width: 80%;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: yellowgreen;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+}
+
+.grid-right > h1 {
+    color: whitesmoke;
+    font-size: xxx-large;
+}
+
+.grid-right > h2 {
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+
+
+.grid-right > article {
+    text-align: justify;
+    color: yellowgreen;
+    font-size: larger;
+}
+
+.grid-right > .rating {
+    margin-top: 30px;
+    font-size: large;
+    color: gold;
+
+}
+
+.grid-right > .genre {
+    margin-top: 30px;
+    font-size: large;
+    color: whitesmoke;
+
+}

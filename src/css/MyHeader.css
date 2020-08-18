@@ -1,0 +1,45 @@
+.myHeader {
+    margin: 0;
+    width: 100vw;
+    min-height: 50px;
+    color: rgb(243,229,122);
+    background-color: rgb(20, 20, 36);
+    border-bottom:3px solid rgb(243,229,122) ;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  .navbar {
+    width: 100%;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin-top: 30px;
+  }
+  li {
+    display: inline;
+    margin: 5px 20px;
+    padding:5px 10px;
+  }
+  li:hover{
+    background-color: rgb(243,229,122);
+    border-radius: 50px;
+    color: rgb(20, 20, 36);
+  }
+
+ .logostyle {
+   width: 100px;
+   height: auto;
+   margin: 5px;
+ }
+
+  .fontdd {
+    margin: 10px 20px;
+    font-family: 'Pirata One', cursive;
+    cursor: pointer;
+  }
+
+ 

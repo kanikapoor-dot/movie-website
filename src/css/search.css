@@ -1,0 +1,28 @@
+.searchDiv {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.searchDiv input{
+    margin: 0;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+#search {
+  background-color: indianred;
+  width: auto;
+  font-size: smaller;
+  color: whitesmoke;
+}
